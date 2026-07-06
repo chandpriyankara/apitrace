@@ -1,13 +1,13 @@
 {
 	"name": "@tix.lk/apitrace",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Discover API endpoints and generate Mermaid sequence diagrams",
 	"author": "Chand Priyankara <chandpriyankara@gmail.com>",
 	"license": "Apache-2.0",
 	"homepage": "https://github.com/chandpriyankara/apitrace#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/chandpriyankara/apitrace.git"
+		"url": "https://github.com/chandpriyankara/apitrace"
 	},
 	"bugs": {
 		"url": "https://github.com/chandpriyankara/apitrace/issues"
