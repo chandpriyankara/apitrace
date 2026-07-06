@@ -1,7 +1,7 @@
 {
 	"name": "@tix.lk/apitrace",
 	"version": "1.0.0",
-	"description": "Discover NestJS API endpoints and generate Mermaid sequence diagrams",
+	"description": "Discover API endpoints and generate Mermaid sequence diagrams",
 	"author": "Chand Priyankara <chandpriyankara@gmail.com>",
 	"license": "Apache-2.0",
 	"homepage": "https://github.com/chandpriyankara/apitrace#readme",
@@ -18,11 +18,13 @@
 	"keywords": [
 		"tix.lk",
 		"apitrace",
-		"nestjs",
-		"mermaid",
 		"api-trace",
+		"api-discovery",
+		"mermaid",
 		"sequence-diagram",
-		"documentation"
+		"api-documentation",
+		"typescript",
+		"node"
 	],
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

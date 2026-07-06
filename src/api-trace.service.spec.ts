@@ -407,7 +407,7 @@ describe("ApiTraceService", () => {
             expect((service as any).isBuiltInService("TypeOrmCoreModule")).toBe(true);
         });
 
-        it("should return true for Nest services", () => {
+        it("should return true for framework services", () => {
             expect((service as any).isBuiltInService("NestApplication")).toBe(true);
         });
 

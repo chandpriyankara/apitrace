@@ -55,7 +55,7 @@ export class ApiTraceService {
 
 		try {
 			const controllerWrappers = this.discoveryService.getControllers();
-			this.logger.log(`Found ${controllerWrappers.length} controller wrappers`);
+			this.logger.log(`Found ${controllerWrappers.length} route handlers`);
 
 			for (const wrapper of controllerWrappers) {
 				if (!wrapper.metatype) continue;
@@ -85,7 +85,7 @@ export class ApiTraceService {
 
 			try {
 				const providerWrappers = this.discoveryService.getProviders();
-				this.logger.log(`Found ${providerWrappers.length} provider wrappers`);
+				this.logger.log(`Found ${providerWrappers.length} service providers`);
 
 				for (const wrapper of providerWrappers) {
 					try {

@@ -12,7 +12,7 @@ export class ApiTraceController {
 	@ApiOperation({
 		summary: 'Get pure Mermaid code',
 		description:
-			'Returns pure Mermaid sequence diagram code organized by controller. Copy-paste ready for mermaid.live.',
+			'Returns Mermaid sequence diagram code organized by route handler. Copy-paste ready for mermaid.live.',
 	})
 	@ApiResponse({
 		status: 200,
